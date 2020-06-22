@@ -1,0 +1,62 @@
+[
+  {
+    "id": "btc-eur",
+    "base": {
+      "id": "btc",
+      "name": "Bitcoin",
+      "basic_symbol": "₿",
+      "basic_code": "btc"
+    },
+    "quote": {
+      "id": "eur",
+      "name": "Euro",
+      "basic_symbol": "€",
+      "basic_code": "eur"
+    }
+  },
+  {
+    "id": "eth-eur",
+    "base": {
+      "id": "eth",
+      "name": "Ethereum",
+      "basic_symbol": "Ξ",
+      "basic_code": "eth"
+    },
+    "quote": {
+      "id": "eur",
+      "name": "Euro",
+      "basic_symbol": "€",
+      "basic_code": "eur"
+    }
+  },
+  {
+    "id": "ltc-eur",
+    "base": {
+      "id": "ltc",
+      "name": "Litecoin",
+      "basic_symbol": "Ł",
+      "basic_code": "ltc"
+    },
+    "quote": {
+      "id": "eur",
+      "name": "Euro",
+      "basic_symbol": "€",
+      "basic_code": "eur"
+    }
+  },
+  {
+    "id": "xrp-eur",
+    "base": {
+      "id": "xrp",
+      "name": "Ripple",
+      "basic_symbol": "X",
+      "basic_code": "xrp"
+    },
+    "quote": {
+      "id": "eur",
+      "name": "Euro",
+      "basic_symbol": "€",
+      "basic_code": "eur"
+    }
+  }
+]
