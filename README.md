@@ -1,16 +1,22 @@
-# bsdex Frontend Challenge
+# BSDEX Frontend Challenge
 
-Welcome to the bsdex Frontend Coding Challenge. The goal of this assessment is to give us an idea how you approach code related tasks and to get an impression on how you solve problems. If you have any questions before of at any time during this challenge just reach out to the contact person who invited you to take this challenge.
+Welcome to the BSDEX Frontend Coding Challenge. The goal of this assessment is to give us an idea how you approach code related tasks and to get an impression on how you solve problems. If you have any questions before or at any time during this challenge just reach out to the contact person who invited you to take this challenge.
 
-You should not spend more than 4 hours on this challenge in total. We are aware that 4 hours may not be enough for everything but we don't want to take too much of your valuable time, so it is fine to stop after 4 hours as that already gives us a first idea how you prioritize tasks.
+You should spend around 4 hours on this challenge in total. We are aware that 4 hours may not be enough for everything but we don't want to take too much of your valuable time, so it is fine to stop after 4 hours as that already gives us a first idea how you prioritize tasks. In case you don't finish any part, please document it in _IMPLEMENTATION_NOTES.md_
 
 ## The Challenge
 
-First, please clone this repo into a **private** GitHub repo. If you don't have a GitHub account you can also use GitLab, Bitbucket or any other source control service of your choice.
+First, please clone this repo to your local machine (and do **not** use the "fork" feature). To make your solution available to us, please push it to one of your own repos on GitHub, GitLab, Bitbucket or any other source control service of your choice and send us the link to it.
 
-The repo contains an emptied Create React App setup and a small api mock server for you to work with. You can start both at the same time by running `yarn develop`. The api server will then be accessible on `http://localhost:3030` and is protected via http Basic Auth. The credentials are `bsdex` as username and `challenge` as password. The client application will be running on `http://localhost:3000`. You can optionally use TypeScript but this is _**not** a must_.
+The repo contains an emptied Create React App setup and a small api mock server for you to work with.
 
-Requirements are the following:
+* You can start both at the same time by running `yarn develop`.
+* The api server will then be accessible on `http://localhost:3030` and is protected via http Basic Auth.  
+* The credentials are `bsdex` as username and `challenge` as password.
+* The client application will be running on `http://localhost:3000`.
+* You can optionally use TypeScript but this is _**not** a must_.
+
+### Requirements
 
 - Make an API call to `http://localhost:3030/markets` to get a list of markets to display
 
@@ -35,3 +41,8 @@ Requirements are the following:
   Again, use whatever you like. Jest as a testrunner already comes with Create React App but everything else you can decide on your own. Use Enzyme, Testing Library or any other testing framework of your choice.
 
 Once you're done with everything push the result to your git repo and invite us to have a look. Thank you for your time!
+
+
+## The Documentation
+
+Please leave us some notes in the file: _IMPLEMENTATION_NOTES.md_
